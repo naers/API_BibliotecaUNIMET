@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 
 
-class ExampleSpider(scrapy.Spider):
+class Spider(scrapy.Spider):
     name = "bibliografica"
     #allowed_domains = ["example.com"]
     start_urls = (
